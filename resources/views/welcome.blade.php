@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-gray-100 font-body">
     {{-- nav section  --}}
     <nav class="bg-white py-10 px-20 sticky top-0 w-full shadow-md">
         <div class="flex flex-row justify-between">
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col gap-2.5 px-20 py-12 items-center">
+    <div class="flex flex-col gap-2.5 px-20 py-12 mt-5 items-center">
         <div class="text-4xl text-left font-bold text-blue-950">Why Choose Us ?</div>
         <div class="text-lg font-medium text-blue-950 text-center">Deftzone adalah mitra terpercaya bagi
             banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik klien.
@@ -162,7 +162,7 @@
             <div class="text-[32px] font-semibold text-blue-950 mb-5">Rp. 2.000.000</div>
             <div class="mb-5">
                 <button
-                    class="text-blue-500 w-72 bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-xs py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
+                    class="text-blue-500 w-72 bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-lg py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
                     type="button">
                     Get Started
                 </button>
@@ -212,7 +212,7 @@
             <div class="text-[32px] font-semibold text-blue-950 mb-5">Rp. 2.000.000</div>
             <div class="mb-5">
                 <button
-                    class="text-blue-500 w-72 bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-xs py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
+                    class="text-blue-500 w-72 bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-lg py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
                     type="button">
                     Get Started
                 </button>
@@ -262,7 +262,7 @@
             <div class="text-[32px] font-semibold text-blue-950 mb-5">Negotiable</div>
             <div class="mb-5">
                 <button
-                    class="text-blue-500 w-[300px] bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-xs py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
+                    class="text-blue-500 w-[300px] bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-lg py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
                     type="button">
                     Get Started
                 </button>
@@ -307,6 +307,137 @@
             </div>
         </div>
     </div>
+
+    <div class="flex flex-col gap-2.5 px-20 py-12 items-center">
+        <div class="text-4xl text-left font-bold text-blue-950">Mitra dan Client Kami</div>
+        <div class="text-lg font-medium text-blue-950 text-center">Deftzone adalah mitra terpercaya bagi
+            banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik klien.
+        </div>
+    </div>
+
+    <div class="flex flex-row px-20 py-5 gap-16 mb-6 justify-center">
+        <img src="{{ asset('img/logo/Ndoroarum.png') }}" class="max-h-8" alt="">
+        <img src="{{ asset('img/logo/lch.png') }}" class="max-h-8" alt="">
+        <img src="{{ asset('img/logo/lgh.png') }}" class="max-h-8" alt="">
+        <img src="{{ asset('img/logo/gh.png') }}" class="max-h-8" alt="">
+        <img src="{{ asset('img/logo/villa.png') }}" class="max-h-8" alt="">
+    </div>
+
+    <div class="bg-gradient-to-br from-[#0C111D] via-black to-[#0C111D] mb-5">
+        <div class="flex flex-row gap-24 py-16 px-36 justify-items-center">
+            <div class="w-full ml-auto">
+                <h3 class="text-5xl font-semibold text-white mb-3 leading-normal">Konsultasikan <br> kebutuhan website
+                    <br>
+                    UMKM dan <br> Instansi Anda
+                </h3>
+                <p class="text-white text-base mb-6">Lets embody your beautiful ideas together, simplify the way you
+                    visualize
+                    your
+                    next big things.</p>
+                <button class="flex items-center text-white py-4 px-7 w-auto rounded-md bg-green-500" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 mr-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                    </svg>
+                    Konsultasi Gratis
+                </button>
+            </div>
+            <div class="w-full mx-auto">
+                <img src="{{ asset('img/illustration/girl.png') }}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex px-20 py-12 mt-14 justify-center">
+        <div class="text-4xl font-bold">Deftzone <span class="text-blue-400">blog</span></div>
+    </div>
+
+    <div class="flex gap-10 items-center justify-center mb-5">
+        <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+            <img class="w-full h-full object-cover" src="{{ asset('img/illustration/Rectangle 38.png') }}"
+                alt="">
+
+            <div class="p-5 flex-col gap-3">
+                <div class="flex justify-between items-center gap 2">
+                    <span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400"> Technology</span>
+                    <span class="text-xs">August 24, 2023</span>
+                </div>
+            </div>
+
+            <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                the Workplace: How Technology
+                is
+                Changing
+            </h2>
+
+            <div class="p-5 flex-col gap-3">
+                <div class="flex flex-row items-center gap 2">
+                    <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                    <span class="px-3 py-1 rounded-md text-xs text-blue-400">Jason Francisco</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+            <img class="w-full h-full object-cover" src="{{ asset('img/illustration/Rectangle 38.png') }}"
+                alt="">
+
+            <div class="p-5 flex-col gap-3">
+                <div class="flex justify-between items-center gap 2">
+                    <span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400"> Technology</span>
+                    <span class="text-xs">August 24, 2023</span>
+                </div>
+            </div>
+
+            <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                the Workplace: How Technology
+                is
+                Changing
+            </h2>
+
+            <div class="p-5 flex-col gap-3">
+                <div class="flex flex-row items-center gap 2">
+                    <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                    <span class="px-3 py-1 rounded-md text-xs text-blue-400">Jason Francisco</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+            <img class="w-full h-full object-cover" src="{{ asset('img/illustration/Rectangle 38.png') }}"
+                alt="">
+
+            <div class="p-5 flex-col gap-3">
+                <div class="flex justify-between items-center gap 2">
+                    <span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400"> Technology</span>
+                    <span class="text-xs">August 24, 2023</span>
+                </div>
+            </div>
+
+            <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                the Workplace: How Technology
+                is
+                Changing
+            </h2>
+
+            <div class="p-5 flex-col gap-3">
+                <div class="flex flex-row items-center gap 2">
+                    <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                    <span class="px-3 py-1 rounded-md text-xs text-blue-400">Jason Francisco</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex p-5 mt-14 justify-center">
+        {{-- <button type="button">Load More</button> --}}
+        <button
+            class="text-blue-500 bg-transparent border border-solid border-gray-300 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-xs py-4 px-4 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
+            type="button">
+            Load More
+        </button>
+    </div>
+
+
 </body>
 
 </html>
