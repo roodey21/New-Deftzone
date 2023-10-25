@@ -9,7 +9,7 @@
 
 <body class="bg-gray-100 font-body">
     {{-- nav section  --}}
-    <nav class="bg-white py-10 px-20 sticky top-0 w-full shadow-md">
+    <nav class="bg-white py-10 px-20 sticky top-0 shadow-md">
         <div class="flex flex-row justify-between">
             <div class="">
                 <img src="{{ asset('img/logo/MAIN LOGO.png') }}" class="h-12" alt="logo deftzone">
@@ -155,9 +155,9 @@
         <div class="text-4xl text-left font-bold text-blue-950">PRICING</div>
     </div>
 
-    <div class="grid grid-cols-3 gap-10 px-20 py-6 justify-center">
-        <div class="flex-1 flex-col px-1 pt-1 text-center w-[347px] h-[600px] bg-slate-50 shadow-md">
-            <div class="text-base font-thin py-1 mb-8 bg-blue-400 text-white">Company Profile</div>
+    <div class="flex gap-10 px-20 py-6 justify-center">
+        <div class="flex-1 flex-wrap flex-col px-1 pt-1 text-center w-[347px] h-[600px] bg-slate-50 shadow-md">
+            <h2 class="text-base font-bold py-1 mb-8 bg-blue-400 text-white">Company Profile</h2>
             <div class="text-base font-normal">Start From: </div>
             <div class="text-[32px] font-semibold text-blue-950 mb-5">Rp. 2.000.000</div>
             <div class="mb-5">
@@ -207,7 +207,7 @@
             </div>
         </div>
         <div class="flex-1 flex-col px-1 pt-1 text-center w-[347px] h-[600px] bg-slate-50 shadow-md">
-            <div class="text-base font-thin py-1 mb-8 bg-blue-700 text-white">E-Commerce</div>
+            <h2 class="text-base font-bold py-1 mb-8 bg-blue-700 text-white">E-Commerce</h2>
             <div class="text-base font-normal">Start From: </div>
             <div class="text-[32px] font-semibold text-blue-950 mb-5">Rp. 2.000.000</div>
             <div class="mb-5">
@@ -257,7 +257,7 @@
             </div>
         </div>
         <div class="flex-1 flex-col px-1 pt-1 text-center w-[347px] h-[600px] bg-slate-50 shadow-md">
-            <div class="text-base font-thin py-1 mb-8 bg-gray-500 text-white">Custom</div>
+            <h2 class="text-base font-bold py-1 mb-8 bg-gray-500 text-white">Custom</h2>
             <div class="text-base font-normal">Start From: </div>
             <div class="text-[32px] font-semibold text-blue-950 mb-5">Negotiable</div>
             <div class="mb-5">
@@ -326,9 +326,9 @@
     <div class="bg-gradient-to-br from-[#0C111D] via-black to-[#0C111D] mb-5">
         <div class="flex flex-row gap-24 py-16 px-36 justify-items-center">
             <div class="w-full ml-auto">
-                <h3 class="text-5xl font-semibold text-white mb-3 leading-normal">Konsultasikan <br> kebutuhan website
-                    <br>
-                    UMKM dan <br> Instansi Anda
+                <h3 class="text-5xl font-semibold text-white mb-3 whitespace-normal">Konsultasikan
+                    kebutuhan website
+                    UMKM dan Instansi Anda
                 </h3>
                 <p class="text-white text-base mb-6">Lets embody your beautiful ideas together, simplify the way you
                     visualize
@@ -360,7 +360,8 @@
 
             <div class="p-5 flex-col gap-3">
                 <div class="flex justify-between items-center gap 2">
-                    <span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400"> Technology</span>
+                    <a href=""><span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400">
+                            Technology</span></a>
                     <span class="text-xs">August 24, 2023</span>
                 </div>
             </div>
@@ -436,6 +437,129 @@
             Load More
         </button>
     </div>
+
+    {{-- <div class="bg-[#023A51]">
+        <div class="flex flex-row px-20 items-end py-16  justify-between h-[750px] text-white">
+            <div class="w-1/4">
+                <div class="flex flex-col">
+                    <h2 class="flex text-lg mb-3">
+                        About
+                    </h2>
+                    <div class="flex-none flex-col text-base font-normal whitespace-normal mb-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laboriosam quam et
+                        sapiente
+                        expedita mollitia, neque voluptas nesciunt cumque laudantium, earum possimus, explicabo modi.
+                        Unde
+                        molestiae minima id atque nihil.
+                    </div>
+                    <div class="flex flex-col">
+                        <span>Email : contact@deftzone.id</span>
+                        <span>Phone : +62 8177 4171 958</span>
+                    </div>
+
+                    <div class="flex flex-row gap-5 mt-5">
+                        <img src="{{ asset('img/logo/Ndoroarum.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/lch.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/lgh.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/gh.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/villa.png') }}" class="max-h-6" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-1/12">
+                <div class="flex flex-col">
+                    <h2 class="flex">
+                        Quick Link
+                    </h2>
+                    <div class="flex">
+                        Home
+                    </div>
+                    <div class="flex">
+                        ABout
+                    </div>
+                    <div class="flex ">
+                        Blog
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col">
+                <h2 class="flex"> Category</h2>
+            </div>
+        </div>
+    </div> --}}
+
+    <!-- Footer container -->
+    <footer class="bg-[#023A51] text-center  text-white">
+        <div class="mx-20 py-10 text-left flex flex-col">
+            <div class="grid grid-cols-3 gap-8">
+                <!-- TW elements section -->
+                <div class="">
+                    <h6 class="mb-4 flex justify-start font-semibold uppercase">
+                        About
+                    </h6>
+                    <p class="mb-10 text-base ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatum nihil ipsa minima
+                        ullam enim dolores atque architecto nemo est possimus praesentium, sapiente ducimus aut dicta
+                        itaque ipsum deserunt labore!
+                    </p>
+                    <div class="flex flex-col">
+                        <span>Email : contact@deftzone.id</span>
+                        <span>Phone : +62 8177 4171 958</span>
+                    </div>
+                    <div class="flex flex-row gap-5 mt-5">
+                        <img src="{{ asset('img/logo/ig.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/facebook.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/twitter.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/youtube.png') }}" class="max-h-6" alt="">
+                        <img src="{{ asset('img/logo/footer.png') }}" class="max-h-6" alt="">
+                    </div>
+                </div>
+                <!-- Useful links section -->
+                <div class="text-left mr-20">
+                    <h6 class="mb-4 font-semibold uppercase">
+                        Quick links
+                    </h6>
+                    <p class="mb-4">
+                        <a href="#!" class="text-neutral-200">Home</a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#!" class="text-neutral-200">About</a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#!" class="text-neutral-200">Blog</a>
+                    </p>
+                </div>
+                <!-- Category section -->
+                <div class="">
+                    <h6 class="mb-4 flex justify-start font-semibold uppercase">
+                        Category
+                    </h6>
+                    <p class="mb-4">
+                        <a href="#!" class="text-neutral-200">Angular</a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#!" class="text-neutral-200">React</a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#!" class="text-neutral-200">Vue</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-neutral-200">Laravel</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Copyright section-->
+        <div class="bg-[#10405A] p-6 text-center dark:bg-neutral-700">
+            CV Deft Zone Indonesia <span> © 2023 </span>. All rights reserved.
+        </div>
+    </footer>
+
 
 
 </body>
