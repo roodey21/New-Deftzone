@@ -14,6 +14,9 @@ export default {
           'body': ['Inter', 'sans-serif'],
         },
       },
+      container: {
+        center: true,
+      }
     },
     plugins: [],
   }

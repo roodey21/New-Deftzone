@@ -8,9 +8,9 @@
 </head>
 
 <body class="bg-gray-100 font-body">
-    {{-- nav section  --}}
-    <nav class="bg-white py-10 px-20 sticky top-0 shadow-md">
-        <div class="flex flex-row justify-between">
+    {{-- nav section --}}
+    <nav class="top-0 px-20 py-10 bg-white shadow-md ">
+        <div class="container flex flex-row justify-between">
             <div class="">
                 <img src="{{ asset('img/logo/MAIN LOGO.png') }}" class="h-12" alt="logo deftzone">
             </div>
@@ -23,31 +23,28 @@
                     <div class="text-base font-semibold">CONTACT</div>
                 </div>
                 <div>
-                    <button class="bg-blue-950 py-3 px-4 rounded text-white">HIRE US</button>
+                    <button class="px-4 py-3 text-white rounded bg-blue-950">HIRE US</button>
                 </div>
             </div>
         </div>
     </nav>
 
-    {{-- Hero section  --}}
-    <div class="bg-header bg-no-repeat bg-cover min-h-screen">
-        <div class="flex flex-row justify-end items-center px-20 py-10 pt-32">
-            <div class="flex flex-col gap-5 items-start">
-                <div class="text-6xl text-left font-bold text-blue-950">Buat Website <br> Sesuai Kebutuhan <br> Bisnis
+    {{-- Hero section --}}
+    <div class="min-h-screen bg-no-repeat bg-cover bg-header">
+        <div class="container flex flex-row items-center justify-end px-20 py-32">
+            <div class="flex flex-col items-start gap-5">
+                <div class="text-6xl font-bold text-left text-blue-950">Buat Website <br> Sesuai Kebutuhan <br> Bisnis
                     Anda
                 </div>
-                <div class="text-lg text-left font-medium text-blue-950 align-text-bottom">Team Deftzone siap membantu
+                <div class="text-lg font-medium text-left align-text-bottom text-blue-950">Team Deftzone siap membantu
                     mengembangkan
                     Platform Digital
                     <br>
                     yang Mendukung Pertumbuhan Bisnis Anda
                 </div>
                 <div class="flex flex-row gap-5">
-                    {{-- <div>
-                        <button class="bg-blue-950 py-3 px-4 rounded text-white">HIRE US</button>
-                    </div> --}}
                     <div>
-                        <button class="bg-white py-4 px-7 rounded  text-blue-950 text-lg font-medium">GET
+                        <button class="py-4 text-lg font-medium bg-white rounded px-7 text-blue-950">GET
                             STARTED</button>
                     </div>
                 </div>
@@ -56,14 +53,14 @@
     </div>
 
     <div class="flex flex-col gap-2.5 px-20 py-12 mt-5 items-center">
-        <div class="text-4xl text-left font-bold text-blue-950">Why Choose Us ?</div>
-        <div class="text-lg font-medium text-blue-950 text-center">Deftzone adalah mitra terpercaya bagi
+        <div class="text-4xl font-bold text-left text-blue-950">Why Choose Us ?</div>
+        <div class="text-lg font-medium text-center text-blue-950">Deftzone adalah mitra terpercaya bagi
             banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik klien.
         </div>
     </div>
 
-    <div class="grid grid-cols-3 gap-10 px-20 py-6 justify-center">
-        <div class="flex-1 flex-col py-5 px-5 w-[347px] h-[417px] border-1 border-gray-500 bg-slate-50 text-center">
+    <div class="container grid justify-center grid-cols-3 gap-10 px-20 py-6">
+        <div class="px-5 py-5 min-h-[417px] text-center border border-black/50 bg-slate-50">
             <div class="flex items-center mb-5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-12 h-12 mx-auto">
@@ -71,14 +68,14 @@
                         d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                 </svg>
             </div>
-            <div class="text-xl font-thin mb-5">01</div>
-            <div class="text-xl font-semibold text-blue-950 mb-5">Team Berpengalaman</div>
-            <div class="text-base font-normal text-blue-950 text-left">Deftzone adalah mitra terpercaya bagi
+            <div class="mb-5 text-xl">01</div>
+            <div class="mb-5 text-xl font-semibold text-blue-950">Team Berpengalaman</div>
+            <div class="text-base font-normal text-left text-blue-950">Deftzone adalah mitra terpercaya bagi
                 banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik
                 klien.
             </div>
         </div>
-        <div class="flex-1 flex-col py-5 px-5 w-[347px] h-[417px] border-1 border-gray-500 bg-slate-50 text-center">
+        <div class="px-5 py-5 min-h-[417px] text-center border border-black/50 bg-slate-50">
             <div class="flex items-center mb-5">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                     class="w-12 h-12 mx-auto">
@@ -89,13 +86,13 @@
                 </svg>
 
             </div>
-            <div class="text-xl font-thin mb-5">02</div>
-            <div class="text-xl font-semibold text-blue-950 mb-5">Design Menawan</div>
-            <div class="text-base font-normal text-blue-950 text-left">Desain menarik dan responsif untuk pengalaman
+            <div class="mb-5 text-xl font-thin">02</div>
+            <div class="mb-5 text-xl font-semibold text-blue-950">Design Menawan</div>
+            <div class="text-base font-normal text-left text-blue-950">Desain menarik dan responsif untuk pengalaman
                 optimal.
             </div>
         </div>
-        <div class="flex-1 flex-col py-5 px-5 w-[347px] h-[417px] border-1 border-gray-500 bg-slate-50 text-center">
+        <div class="px-5 py-5 min-h-[417px] text-center border border-black/50 bg-slate-50">
             <div class="flex items-center mb-5">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                     class="w-12 h-12 mx-auto">
@@ -104,9 +101,9 @@
                 </svg>
 
             </div>
-            <div class="text-xl font-thin mb-5">01</div>
-            <div class="text-xl font-semibold text-blue-950 mb-5">Pendekatan Bebasis Klien</div>
-            <div class="text-base font-normal text-blue-950 text-left">Kami meyakini bahwa setiap klien <br> adalah
+            <div class="mb-5 text-xl font-thin">01</div>
+            <div class="mb-5 text-xl font-semibold text-blue-950">Pendekatan Bebasis Klien</div>
+            <div class="text-base font-normal text-left text-blue-950">Kami meyakini bahwa setiap klien <br> adalah
                 unik,
                 maka kami mengadopsi <br> pendekatan berbasis klien. Dengan mendengarkan kebutuhan Anda, kami ciptakan
                 solusi sesuai tujuan dan anggaran Anda.
@@ -114,7 +111,7 @@
         </div>
 
 
-        <div class="flex-1 flex-col py-5 px-5 w-[347px] h-[417px] border-1 border-gray-500 bg-slate-50 text-center">
+        <div class="px-5 py-5 min-h-[417px] text-center border border-black/50 bg-slate-50">
             <div class="flex items-center mb-5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-12 h-12 mx-auto">
@@ -122,14 +119,14 @@
                         d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                 </svg>
             </div>
-            <div class="text-xl font-thin mb-5">01</div>
-            <div class="text-xl font-semibold text-blue-950 mb-5">Team Berpengalaman</div>
-            <div class="text-base font-normal text-blue-950 text-left">Deftzone adalah mitra terpercaya bagi
+            <div class="mb-5 text-xl font-thin">01</div>
+            <div class="mb-5 text-xl font-semibold text-blue-950">Team Berpengalaman</div>
+            <div class="text-base font-normal text-left text-blue-950">Deftzone adalah mitra terpercaya bagi
                 banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik
                 klien.
             </div>
         </div>
-        <div class="flex-1 flex-col py-5 px-5 w-[347px] h-[417px] border-1 border-gray-500 bg-slate-50 text-center ">
+        <div class="px-5 py-5 min-h-[417px] text-center border border-black/50 bg-slate-50">
             <div class="flex items-center mb-5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-12 h-12 mx-auto">
@@ -137,204 +134,241 @@
                         d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                 </svg>
             </div>
-            <div class="text-xl font-thin mb-5">01</div>
-            <div class="text-xl font-semibold text-blue-950 mb-5">Team Berpengalaman</div>
-            <div class="text-base font-normal text-blue-950 text-left">Deftzone adalah mitra terpercaya bagi
+            <div class="mb-5 text-xl font-thin">01</div>
+            <div class="mb-5 text-xl font-semibold text-blue-950">Team Berpengalaman</div>
+            <div class="text-base font-normal text-left text-blue-950">Deftzone adalah mitra terpercaya bagi
                 banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik
                 klien.
             </div>
         </div>
 
-        <div class="flex-1 flex-col py-5 px-5 w-[347px] h-[417px] relative">
-            <img src="{{ asset('img/illustration/g8.png') }}"class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-[443px] h-[223px]"
-                alt="">
-        </div>
-    </div>
-
-    <div class="flex px-20 py-12 mt-14">
-        <div class="text-4xl text-left font-bold text-blue-950">PRICING</div>
-    </div>
-
-    <div class="flex gap-10 px-20 py-6 justify-center">
-        <div class="flex-1 flex-wrap flex-col px-1 pt-1 text-center w-[347px] h-[600px] bg-slate-50 shadow-md">
-            <h2 class="text-base font-bold py-1 mb-8 bg-blue-400 text-white">Company Profile</h2>
-            <div class="text-base font-normal">Start From: </div>
-            <div class="text-[32px] font-semibold text-blue-950 mb-5">Rp. 2.000.000</div>
-            <div class="mb-5">
-                <button
-                    class="text-blue-500 w-72 bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-lg py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
-                    type="button">
-                    Get Started
-                </button>
-            </div>
-            <div class="text-base font-semibold text-left px-5 mb-1 uppercase">Features</div>
-            <div class="text-left text-sm font-normal px-5 mb-5">That package includes: </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Home Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">About Us Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Service Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Contact Page</div>
-            </div>
-        </div>
-        <div class="flex-1 flex-col px-1 pt-1 text-center w-[347px] h-[600px] bg-slate-50 shadow-md">
-            <h2 class="text-base font-bold py-1 mb-8 bg-blue-700 text-white">E-Commerce</h2>
-            <div class="text-base font-normal">Start From: </div>
-            <div class="text-[32px] font-semibold text-blue-950 mb-5">Rp. 2.000.000</div>
-            <div class="mb-5">
-                <button
-                    class="text-blue-500 w-72 bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-lg py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
-                    type="button">
-                    Get Started
-                </button>
-            </div>
-            <div class="text-base font-semibold text-left px-5 mb-1 uppercase">Features</div>
-            <div class="text-left text-sm font-normal px-5 mb-5">That package includes: </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Home Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">About Us Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Service Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Contact Page</div>
-            </div>
-        </div>
-        <div class="flex-1 flex-col px-1 pt-1 text-center w-[347px] h-[600px] bg-slate-50 shadow-md">
-            <h2 class="text-base font-bold py-1 mb-8 bg-gray-500 text-white">Custom</h2>
-            <div class="text-base font-normal">Start From: </div>
-            <div class="text-[32px] font-semibold text-blue-950 mb-5">Negotiable</div>
-            <div class="mb-5">
-                <button
-                    class="text-blue-500 w-[300px] bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-lg py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
-                    type="button">
-                    Get Started
-                </button>
-            </div>
-            <div class="text-base font-semibold text-left px-5 mb-1 uppercase">Features</div>
-            <div class="text-left text-sm font-normal px-5 mb-5">That package includes: </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Home Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">About Us Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Service Page</div>
-            </div>
-            <div class="flex flex-row items-center px-5 mb-5">
-                <div class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                    </svg>
-                </div>
-                <div class="font-normal text-base text-left">Contact Page</div>
+        <div class="relative min-h-[417px] text-center px-5 py-5">
+            <div class="absolute transform -translate-y-1/2 -mx-28 top-1/2">
+                <img src="{{ asset('img/illustration/g8.png') }}" class="w-full" alt="">
             </div>
         </div>
     </div>
-
-    <div class="flex flex-col gap-2.5 px-20 py-12 items-center">
-        <div class="text-4xl text-left font-bold text-blue-950">Mitra dan Client Kami</div>
-        <div class="text-lg font-medium text-blue-950 text-center">Deftzone adalah mitra terpercaya bagi
-            banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik klien.
+    <section id="pricing" class="container">
+        <div class="flex px-20 py-12 mt-14">
+            <div class="text-4xl font-bold text-left text-blue-950">PRICING</div>
         </div>
-    </div>
 
-    <div class="flex flex-row px-20 py-5 gap-16 mb-6 justify-center">
-        <img src="{{ asset('img/logo/Ndoroarum.png') }}" class="max-h-8" alt="">
-        <img src="{{ asset('img/logo/lch.png') }}" class="max-h-8" alt="">
-        <img src="{{ asset('img/logo/lgh.png') }}" class="max-h-8" alt="">
-        <img src="{{ asset('img/logo/gh.png') }}" class="max-h-8" alt="">
-        <img src="{{ asset('img/logo/villa.png') }}" class="max-h-8" alt="">
-    </div>
+        <div class="flex flex-wrap justify-center gap-10 px-20 py-6">
+            <div class="flex-1 p-1 text-center shadow-md bg-slate-50">
+                <h2 class="py-1 font-bold text-white bg-blue-400">Company Profile</h2>
+                <div class="px-5 py-8">
+                    <div class="mb-5">
+                        <div class="text-base font-normal">Start From: </div>
+                        <div class="text-[32px] font-semibold text-blue-950">Rp. 2.000.000</div>
+                    </div>
+                    <div class="mb-5">
+                        <button
+                            class="w-full py-4 mb-5 text-lg font-bold text-blue-500 transition-all duration-150 ease-linear bg-transparent border border-gray-500 border-solid rounded outline-none hover:bg-blue-500 hover:text-white active:bg-blue-600 px-7 focus:outline-none"
+                            type="button">
+                            Get Started
+                        </button>
+                    </div>
+                    <div class="mb-5">
+                        <div class="mb-1 text-base font-semibold text-left uppercase">Features</div>
+                        <div class="mb-5 text-sm font-normal text-left">That package includes: </div>
+                        <ul class="space-y-5">
+                            <li class="flex flex-row items-center">
+                                <div class="mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <div class="text-base font-normal">Home Page</div>
+                            </li>
+                            <li class="flex flex-row items-center">
+                                <div class="mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <div class="text-base font-normal">About Us Page</div>
+                            </li>
+                            <li class="flex flex-row items-center">
+                                <div class="mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <div class="text-base font-normal">Service Page</div>
+                            </li>
+                            <li class="flex flex-row items-center">
+                                <div class="mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <div class="text-base font-normal">Contact Page</div>
+                            </li>
+                            <li class="flex flex-row items-center">
+                                <div class="mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <div class="text-base font-normal">Checkout Page</div>
+                            </li>
+                            <li class="flex flex-row items-center">
+                                <div class="mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <div class="text-base font-normal">Checkout Page</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 px-1 pt-1 text-center shadow-md bg-slate-50">
+                <h2 class="py-1 mb-8 text-base font-bold text-white bg-blue-700">E-Commerce</h2>
+                <div class="text-base font-normal">Start From: </div>
+                <div class="text-[32px] font-semibold text-blue-950 mb-5">Rp. 2.000.000</div>
+                <div class="mb-5">
+                    <button
+                        class="py-4 mb-5 mr-1 text-lg font-bold text-blue-500 transition-all duration-150 ease-linear bg-transparent border border-gray-500 border-solid rounded outline-none w-72 hover:bg-blue-500 hover:text-white active:bg-blue-600 px-7 focus:outline-none"
+                        type="button">
+                        Get Started
+                    </button>
+                </div>
+                <div class="px-5 mb-1 text-base font-semibold text-left uppercase">Features</div>
+                <div class="px-5 mb-5 text-sm font-normal text-left">That package includes: </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">Home Page</div>
+                </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">About Us Page</div>
+                </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">Service Page</div>
+                </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">Contact Page</div>
+                </div>
+            </div>
+            <div class="flex-1 px-1 pt-1 text-center shadow-md bg-slate-50">
+                <h2 class="py-1 mb-8 text-base font-bold text-white bg-gray-500">Custom</h2>
+                <div class="text-base font-normal">Start From: </div>
+                <div class="text-[32px] font-semibold text-blue-950 mb-5">Negotiable</div>
+                <div class="mb-5">
+                    <button
+                        class="text-blue-500 w-[300px] bg-transparent border border-solid border-gray-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-lg py-4 px-7 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
+                        type="button">
+                        Get Started
+                    </button>
+                </div>
+                <div class="px-5 mb-1 text-base font-semibold text-left uppercase">Features</div>
+                <div class="px-5 mb-5 text-sm font-normal text-left">That package includes: </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">Home Page</div>
+                </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">About Us Page</div>
+                </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">Service Page</div>
+                </div>
+                <div class="flex flex-row items-center px-5 mb-5">
+                    <div class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                    </div>
+                    <div class="text-base font-normal text-left">Contact Page</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="bg-gradient-to-br from-[#0C111D] via-black to-[#0C111D] mb-5">
-        <div class="flex flex-row gap-24 py-16 px-36 justify-items-center">
-            <div class="w-full ml-auto">
-                <h3 class="text-5xl font-semibold text-white mb-3 whitespace-normal">Konsultasikan
+    <section id="client">
+        <div class="flex flex-col gap-2.5 px-20 py-12 items-center">
+            <div class="text-4xl font-bold text-left text-blue-950">Mitra dan Client Kami</div>
+            <div class="text-lg font-medium text-center text-blue-950">Deftzone adalah mitra terpercaya bagi
+                banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik
+                klien.
+            </div>
+        </div>
+
+        <div class="flex flex-row justify-center gap-16 px-20 py-5 mb-6">
+            <img src="{{ asset('img/logo/Ndoroarum.png') }}" class="max-h-8" alt="">
+            <img src="{{ asset('img/logo/lch.png') }}" class="max-h-8" alt="">
+            <img src="{{ asset('img/logo/lgh.png') }}" class="max-h-8" alt="">
+            <img src="{{ asset('img/logo/gh.png') }}" class="max-h-8" alt="">
+            <img src="{{ asset('img/logo/villa.png') }}" class="max-h-8" alt="">
+        </div>
+    </section>
+
+    <section id="" class="bg-[#10405A] mb-5 ">
+        <div class="container flex flex-row gap-24 py-16 px-36 justify-items-center">
+            <div class="w-full ">
+                <h3 class="mb-3 text-5xl font-semibold text-white whitespace-normal">Konsultasikan
                     kebutuhan website
                     UMKM dan Instansi Anda
                 </h3>
-                <p class="text-white text-base mb-6">Lets embody your beautiful ideas together, simplify the way you
+                <p class="mb-6 text-base text-white">Lets embody your beautiful ideas together, simplify the way you
                     visualize
                     your
                     next big things.</p>
-                <button class="flex items-center text-white py-4 px-7 w-auto rounded-md bg-green-500" type="button">
+                <button class="flex items-center w-auto py-4 text-white bg-green-500 rounded-md px-7" type="button">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-6 h-6 mr-2">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -343,109 +377,178 @@
                     Konsultasi Gratis
                 </button>
             </div>
-            <div class="w-full mx-auto">
+            <div class="w-full">
                 <img src="{{ asset('img/illustration/girl.png') }}" alt="">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="flex px-20 py-12 mt-14 justify-center">
-        <div class="text-4xl font-bold">Deftzone <span class="text-blue-400">blog</span></div>
-    </div>
+    <section id="blog">
+        <div class="flex justify-center px-20 py-12 mt-14">
+            <div class="text-4xl font-bold">Deftzone <span class="text-blue-400">blog</span></div>
+        </div>
 
-    <div class="flex gap-10 items-center justify-center mb-5">
-        <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
-            <img class="w-full h-full object-cover" src="{{ asset('img/illustration/Rectangle 38.png') }}"
-                alt="">
+        <div class="flex flex-wrap items-center justify-center gap-10 mb-5">
+            <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+                <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}" alt="">
 
-            <div class="p-5 flex-col gap-3">
-                <div class="flex justify-between items-center gap 2">
-                    <a href=""><span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400">
-                            Technology</span></a>
-                    <span class="text-xs">August 24, 2023</span>
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex items-center justify-between gap 2">
+                        <a href=""><span class="px-3 py-1 text-xs text-blue-400 bg-gray-200 rounded-md">
+                                Technology</span></a>
+                        <span class="text-xs">August 24, 2023</span>
+                    </div>
+                </div>
+
+                <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                    the Workplace: How Technology
+                    is
+                    Changing
+                </h2>
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex flex-row items-center gap 2">
+                        <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                        <span class="px-3 py-1 text-xs text-blue-400 rounded-md">Jason Francisco</span>
+                    </div>
                 </div>
             </div>
+            <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+                <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}" alt="">
 
-            <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
-                the Workplace: How Technology
-                is
-                Changing
-            </h2>
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex items-center justify-between gap 2">
+                        <span class="px-3 py-1 text-xs text-blue-400 bg-gray-200 rounded-md"> Technology</span>
+                        <span class="text-xs">August 24, 2023</span>
+                    </div>
+                </div>
 
-            <div class="p-5 flex-col gap-3">
-                <div class="flex flex-row items-center gap 2">
-                    <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
-                    <span class="px-3 py-1 rounded-md text-xs text-blue-400">Jason Francisco</span>
+                <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                    the Workplace: How Technology
+                    is
+                    Changing
+                </h2>
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex flex-row items-center gap 2">
+                        <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                        <span class="px-3 py-1 text-xs text-blue-400 rounded-md">Jason Francisco</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+                <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}" alt="">
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex items-center justify-between gap 2">
+                        <span class="px-3 py-1 text-xs text-blue-400 bg-gray-200 rounded-md"> Technology</span>
+                        <span class="text-xs">August 24, 2023</span>
+                    </div>
+                </div>
+
+                <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                    the Workplace: How Technology
+                    is
+                    Changing
+                </h2>
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex flex-row items-center gap 2">
+                        <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                        <span class="px-3 py-1 text-xs text-blue-400 rounded-md">Jason Francisco</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+                <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}" alt="">
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex items-center justify-between gap 2">
+                        <a href=""><span class="px-3 py-1 text-xs text-blue-400 bg-gray-200 rounded-md">
+                                Technology</span></a>
+                        <span class="text-xs">August 24, 2023</span>
+                    </div>
+                </div>
+
+                <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                    the Workplace: How Technology
+                    is
+                    Changing
+                </h2>
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex flex-row items-center gap 2">
+                        <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                        <span class="px-3 py-1 text-xs text-blue-400 rounded-md">Jason Francisco</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+                <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}" alt="">
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex items-center justify-between gap 2">
+                        <span class="px-3 py-1 text-xs text-blue-400 bg-gray-200 rounded-md"> Technology</span>
+                        <span class="text-xs">August 24, 2023</span>
+                    </div>
+                </div>
+
+                <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                    the Workplace: How Technology
+                    is
+                    Changing
+                </h2>
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex flex-row items-center gap 2">
+                        <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                        <span class="px-3 py-1 text-xs text-blue-400 rounded-md">Jason Francisco</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+                <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}" alt="">
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex items-center justify-between gap 2">
+                        <span class="px-3 py-1 text-xs text-blue-400 bg-gray-200 rounded-md"> Technology</span>
+                        <span class="text-xs">August 24, 2023</span>
+                    </div>
+                </div>
+
+                <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
+                    the Workplace: How Technology
+                    is
+                    Changing
+                </h2>
+
+                <div class="flex-col gap-3 p-5">
+                    <div class="flex flex-row items-center gap 2">
+                        <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
+                        <span class="px-3 py-1 text-xs text-blue-400 rounded-md">Jason Francisco</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
-            <img class="w-full h-full object-cover" src="{{ asset('img/illustration/Rectangle 38.png') }}"
-                alt="">
 
-            <div class="p-5 flex-col gap-3">
-                <div class="flex justify-between items-center gap 2">
-                    <span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400"> Technology</span>
-                    <span class="text-xs">August 24, 2023</span>
-                </div>
-            </div>
-
-            <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
-                the Workplace: How Technology
-                is
-                Changing
-            </h2>
-
-            <div class="p-5 flex-col gap-3">
-                <div class="flex flex-row items-center gap 2">
-                    <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
-                    <span class="px-3 py-1 rounded-md text-xs text-blue-400">Jason Francisco</span>
-                </div>
-            </div>
+        <div class="flex justify-center p-5 mt-14">
+            {{-- <button type="button">Load More</button> --}}
+            <button
+                class="px-4 py-4 mb-5 mr-1 text-xs font-bold text-blue-500 transition-all duration-150 ease-linear bg-transparent border border-gray-300 border-solid rounded outline-none hover:bg-blue-500 hover:text-white active:bg-blue-600 focus:outline-none"
+                type="button">
+                Load More
+            </button>
         </div>
-        <div class="text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
-            <img class="w-full h-full object-cover" src="{{ asset('img/illustration/Rectangle 38.png') }}"
-                alt="">
-
-            <div class="p-5 flex-col gap-3">
-                <div class="flex justify-between items-center gap 2">
-                    <span class="px-3 py-1 rounded-md text-xs bg-gray-200 text-blue-400"> Technology</span>
-                    <span class="text-xs">August 24, 2023</span>
-                </div>
-            </div>
-
-            <h2 class="px-3 py-1 font-bold ">The Impact of Technology on
-                the Workplace: How Technology
-                is
-                Changing
-            </h2>
-
-            <div class="p-5 flex-col gap-3">
-                <div class="flex flex-row items-center gap 2">
-                    <img class="" src="{{ asset('img/illustration/avatar.png') }}" alt="">
-                    <span class="px-3 py-1 rounded-md text-xs text-blue-400">Jason Francisco</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="flex p-5 mt-14 justify-center">
-        {{-- <button type="button">Load More</button> --}}
-        <button
-            class="text-blue-500 bg-transparent border border-solid border-gray-300 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold text-xs py-4 px-4 rounded outline-none focus:outline-none mr-1 mb-5 ease-linear transition-all duration-150"
-            type="button">
-            Load More
-        </button>
-    </div>
+    </section>
 
     {{-- <div class="bg-[#023A51]">
         <div class="flex flex-row px-20 items-end py-16  justify-between h-[750px] text-white">
             <div class="w-1/4">
                 <div class="flex flex-col">
-                    <h2 class="flex text-lg mb-3">
+                    <h2 class="flex mb-3 text-lg">
                         About
                     </h2>
-                    <div class="flex-none flex-col text-base font-normal whitespace-normal mb-6">
+                    <div class="flex-col flex-none mb-6 text-base font-normal whitespace-normal">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laboriosam quam et
                         sapiente
                         expedita mollitia, neque voluptas nesciunt cumque laudantium, earum possimus, explicabo modi.
@@ -493,11 +596,11 @@
 
     <!-- Footer container -->
     <footer class="bg-[#023A51] text-center  text-white">
-        <div class="mx-20 py-10 text-left flex flex-col">
+        <div class="flex flex-col py-10 mx-20 text-left">
             <div class="grid grid-cols-3 gap-8">
                 <!-- TW elements section -->
                 <div class="">
-                    <h6 class="mb-4 flex justify-start font-semibold uppercase">
+                    <h6 class="flex justify-start mb-4 font-semibold uppercase">
                         About
                     </h6>
                     <p class="mb-10 text-base ">
@@ -518,7 +621,7 @@
                     </div>
                 </div>
                 <!-- Useful links section -->
-                <div class="text-left mr-20">
+                <div class="mr-20 text-left">
                     <h6 class="mb-4 font-semibold uppercase">
                         Quick links
                     </h6>
@@ -534,7 +637,7 @@
                 </div>
                 <!-- Category section -->
                 <div class="">
-                    <h6 class="mb-4 flex justify-start font-semibold uppercase">
+                    <h6 class="flex justify-start mb-4 font-semibold uppercase">
                         Category
                     </h6>
                     <p class="mb-4">
