@@ -396,7 +396,7 @@
         </div>
 
         <div class="flex flex-wrap items-center justify-center gap-10 mb-5">
-            <div class="text-gray-700 w-1/4  shadow-lg rounded-md overflow-hidden">
+            <div class="blog">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -421,7 +421,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-gray-700 w-1/4 shadow-lg rounded-md overflow-hidden">
+            <div class="blog">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -446,7 +446,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-gray-700 w-1/4 shadow-lg rounded-md overflow-hidden">
+            <div class="blog">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -471,7 +471,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-gray-700 w-1/4 shadow-lg rounded-md overflow-hidden">
+            <div class="blog">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -496,7 +496,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-gray-700 w-1/4 shadow-lg rounded-md overflow-hidden">
+            <div class="blog">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -521,7 +521,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-gray-700 w-1/4 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+            <div class="blog">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
