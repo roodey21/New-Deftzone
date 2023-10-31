@@ -9,40 +9,39 @@
 
 <body class="bg-gray-100 font-body">
     {{-- nav section --}}
-    <nav class="sticky top-0 px-4 py-4 md:px-20 bg-white shadow-md z-30">
-        <div class="container flex flex-row justify-between items-center">
+    <nav class="sticky top-0 z-30 px-4 py-4 bg-white shadow-md md:px-20">
+        <div class="container relative flex flex-row items-center justify-between">
             <div class="">
                 <img src="{{ asset('img/logo/MAIN LOGO.png') }}" class="h-8" alt="logo deftzone">
             </div>
             <div class="md:hidden">
-                <button id="mobile-menu-button" class="p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                        class="w-6 h-6 text-gray-900">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button id="mobile-menu-button" class="p-2 " type="button">
+                    <span class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+                    <span class="transition duration-300 ease-in-out hamburger-line"></span>
+                    <span class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
                 </button>
             </div>
-            <div class="hidden md:items-center md:flex flex-row gap-5">
-                <div class="mr-5 font-semibold text-base">HOME</div>
-                <div class="mr-5 font-semibold text-base">PRICING</div>
-                <div class="mr-5 font-semibold text-base">PORTFOLIO</div>
-                <div class="mr-5 font-semibold text-base">BLOG</div>
-                <div class="mr-5 font-semibold text-base">CONTACT</div>
+
+            <ul id="nav-menu" class="absolute right-0 flex-row hidden gap-5 bg-white top-10 md:top-0 md:relative md:items-center md:flex">
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">HOME</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">PRICING</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">PORTFOLIO</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">BLOG</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">CONTACT</a></li>
                 <button class="px-4 py-3 text-white rounded bg-blue-950">HIRE US</button>
-            </div>
+            </ul>
         </div>
     </nav>
 
 
     {{-- Hero section --}}
     <div class="min-h-screen bg-no-repeat bg-cover bg-header">
-        <div class="container flex flex-row items-center justify-end px-20 py-32">
+        <div class="container flex flex-row items-center justify-center px-20 py-32 md:justify-end">
             <div class="flex flex-col items-start gap-5">
-                <div class="text-6xl font-bold text-left text-blue-950">Buat Website <br> Sesuai Kebutuhan <br> Bisnis
+                <div class="text-3xl font-bold text-left text-white md:text-6xl md:whitespace-normal md:text-blue-950">Buat Website <br> Sesuai Kebutuhan <br> Bisnis
                     Anda
                 </div>
-                <div class="text-lg font-medium text-left align-text-bottom text-blue-950">Team Deftzone siap membantu
+                <div class="text-base font-medium text-left text-white align-text-bottom md:text-lg md:text-blue-950">Team Deftzone siap membantu
                     mengembangkan
                     Platform Digital
                     <br>
@@ -50,7 +49,7 @@
                 </div>
                 <div class="flex flex-row gap-5">
                     <div>
-                        <button class="py-4 text-lg font-medium bg-white rounded px-7 text-blue-950">GET
+                        <button class="py-4 text-lg font-medium text-white bg-blue-300 rounded md:bg-white px-7 md:text-blue-950">GET
                             STARTED</button>
                     </div>
                 </div>
@@ -59,77 +58,77 @@
     </div>
 
     <div class="flex flex-col gap-2.5 px-6 py-10 mt-5 items-center">
-        <div class="text-4xl font-bold text-left text-blue-950">Why Choose Us ?</div>
-        <div class="text-lg font-medium text-center text-blue-950">Deftzone adalah mitra terpercaya bagi
+        <div class="text-4xl font-bold text-center md:text-left text-blue-950">Why Choose Us ?</div>
+        <div class="text-base font-normal text-center md:text-lg md:font-medium text-blue-950">Deftzone adalah mitra terpercaya bagi
             banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik klien.
         </div>
     </div>
 
     <section id="chooseUs" class="container">
-        <div class="flex flex-row justify-center gap-10 px-20 mb-10">
+        <div class="flex flex-col justify-center gap-10 px-10 mb-10 md:px-20 md:flex-row">
             <div
-                class="flex-1 px-5 py-5 text-center border border-dashed border-black/50 hover:border-blue-500 bg-slate-50 shadow-md rounded-md">
-                <div class="flex justify-center items-center mb-5">
-                    <div class="p-3 rounded-full border-2 border-blue-400 text-blue-600">
+                class="flex-1 px-5 py-5 text-center border border-dashed rounded-md shadow-md border-black/50 hover:border-blue-500 bg-slate-50">
+                <div class="flex items-center justify-center mb-5">
+                    <div class="p-3 text-blue-600 border-2 border-blue-400 rounded-full">
                         <img src="{{ asset('img/icons/fluent_people-team-20-regular.svg') }}" alt="">
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Team Berpengalaman</div>
-                <div class="text-base font-normal text-center text-blue-950 mx-auto">Deftzone adalah mitra terpercaya
+                <div class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Deftzone adalah mitra terpercaya
                     bagi
                     banyak perusahaan dalam mengembangkan solusi web yang inovatif dan sesuai dengan kebutuhan unik
                     klien.
                 </div>
             </div>
             <div
-                class="flex-1 px-5 py-5 text-center border border-dashed border-black/50 hover:border-blue-500 bg-slate-50 shadow-md rounded-md">
-                <div class="flex justify-center items-center mb-5">
-                    <div class="p-3 rounded-full border-2 border-blue-400 text-blue-600">
+                class="flex-1 px-5 py-5 text-center border border-dashed rounded-md shadow-md border-black/50 hover:border-blue-500 bg-slate-50">
+                <div class="flex items-center justify-center mb-5">
+                    <div class="p-3 text-blue-600 border-2 border-blue-400 rounded-full">
                         <img src="{{ asset('img/icons/fluent_calligraphy-pen-20-regular.svg') }}" alt="">
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Desain Menarik </div>
-                <p class="text-base font-normal text-center text-blue-950 mx-auto">Desain menarik dan responsif untuk
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Desain menarik dan responsif untuk
                     pengalaman optimal.
                 </p>
             </div>
             <div
-                class="flex-1 px-5 py-5 text-center border border-dashed border-black/50 hover:border-blue-500 bg-slate-50 shadow-md rounded-md">
-                <div class="flex justify-center items-center mb-5">
-                    <div class="p-3 rounded-full border-2 border-blue-400 text-blue-600">
+                class="flex-1 px-5 py-5 text-center border border-dashed rounded-md shadow-md border-black/50 hover:border-blue-500 bg-slate-50">
+                <div class="flex items-center justify-center mb-5">
+                    <div class="p-3 text-blue-600 border-2 border-blue-400 rounded-full">
                         <img src="{{ asset('img/icons/fluent_chat-bubbles-question-16-regular.svg') }}" alt="">
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Pendekatan Berbasis Klien</div>
-                <p class="text-base font-normal text-center text-blue-950 mx-auto">Kami meyakini bahwa setiap klien
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Kami meyakini bahwa setiap klien
                     adalah unik, maka kami mengadopsi pendekatan berbasis klien. Dengan mendengarkan kebutuhan Anda,
                     kami ciptakan solusi sesuai tujuan dan anggaran Anda.
                 </p>
             </div>
         </div>
-        <div class="flex flex-row justify-center gap-10 px-20 mb-10">
+        <div class="flex flex-col justify-center gap-10 px-10 mb-10 md:px-20 md:flex-row">
             <div
-                class="flex-1 px-5 py-5 text-center border border-dashed border-black/50 hover:border-blue-500 bg-slate-50 shadow-md rounded-md">
-                <div class="flex justify-center items-center mb-5">
-                    <div class="p-3 rounded-full border-2 border-blue-400 text-blue-600">
+                class="flex-1 px-5 py-5 text-center border border-dashed rounded-md shadow-md border-black/50 hover:border-blue-500 bg-slate-50">
+                <div class="flex items-center justify-center mb-5">
+                    <div class="p-3 text-blue-600 border-2 border-blue-400 rounded-full">
                         <img src="{{ asset('img/icons/fluent_view-desktop-mobile-24-regular.svg') }}" alt="">
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Responsif & Mobile-Friendly</div>
-                <p class="text-base font-normal text-center text-blue-950 mx-auto">Semakin banyak akses internet
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Semakin banyak akses internet
                     melalui perangkat mobile. Kami prioritaskan responsif dan mobile-friendly dalam setiap proyek untuk
                     pengalaman pengguna optimal.
                 </p>
             </div>
             <div
-                class="flex-1 px-5 py-5 text-center border border-dashed border-black/50 hover:border-blue-500 bg-slate-50 shadow-md rounded-md">
-                <div class="flex justify-center items-center mb-5">
-                    <div class="p-3 rounded-full border-2 border-blue-400 text-blue-600">
+                class="flex-1 px-5 py-5 text-center border border-dashed rounded-md shadow-md border-black/50 hover:border-blue-500 bg-slate-50">
+                <div class="flex items-center justify-center mb-5">
+                    <div class="p-3 text-blue-600 border-2 border-blue-400 rounded-full">
                         <img src="{{ asset('img/icons/fluent_window-dev-edit-16-regular.svg') }}" alt="">
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Custom</div>
-                <p class="text-base font-normal text-center text-blue-950 mx-auto">Meskipun kami memanfaatkan framework
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Meskipun kami memanfaatkan framework
                     dan teknologi canggih, kami juga terampil dalam mengembangkan solusi kustom yang sesuai dengan
                     kebutuhan spesifik Anda.
                 </p>
@@ -139,17 +138,17 @@
 
 
     <section id="pricing" class="container">
-        <div class="flex px-20 py-12 mt-14">
-            <div class="text-4xl font-bold text-left text-blue-950">PRICING</div>
+        <div class="flex px-20 py-12 mt-14 ">
+            <div class="text-4xl font-bold text-center text-blue-950">PRICING</div>
         </div>
 
-        <div class="flex flex-wrap justify-center gap-10 px-20 py-6">
+        <div class="flex flex-wrap justify-center gap-10 px-10 py-6 md:px-20">
             <div class="flex-1 p-1 text-center shadow-md bg-slate-50">
                 <h2 class="py-1 font-bold text-white bg-blue-400">Company Profile</h2>
                 <div class="px-5 py-8">
                     <div class="mb-5">
                         <div class="text-base font-normal">Start From: </div>
-                        <div class="text-[32px] font-semibold text-blue-950">Rp. 1.000.000</div>
+                        <div class="text-[32px] font-semibold text-blue-950">Rp 1.000.000</div>
                     </div>
                     <div class="mb-5">
                         <button
@@ -211,7 +210,7 @@
                 <div class="px-5 py-8">
                     <div class="mb-5">
                         <div class="text-base font-normal">Start From: </div>
-                        <div class="text-[32px] font-semibold text-blue-950">Rp. 2.000.000</div>
+                        <div class="text-[32px] font-semibold text-blue-950">Rp 2.000.000</div>
                     </div>
                     <div class="mb-5">
                         <button
@@ -336,7 +335,7 @@
                                             d="M4.5 12.75l6 6 9-13.5" />
                                     </svg>
                                 </div>
-                                <div class="text-base font-normal">Integration with Backend Systems</div>
+                                <div class="text-base font-normal text-left">Integration with Backend Systems</div>
                             </li>
                         </ul>
                     </div>
@@ -345,16 +344,16 @@
         </div>
     </section>
 
-    <section id="client">
+    <section id="client" class="container">
         <div class="flex flex-col gap-2.5 px-20 py-12 items-center">
-            <div class="text-4xl font-bold text-left text-blue-950">Mitra dan Client Kami</div>
-            <div class="text-lg font-medium text-center text-blue-950">Deftzone adalah mitra terpercaya bagi
+            <div class="text-4xl font-bold text-center text-blue-950">Mitra dan Client Kami</div>
+            <div class="text-sm font-medium text-center md:text-lg text-blue-950">Deftzone adalah mitra terpercaya bagi
                 banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik
                 klien.
             </div>
         </div>
 
-        <div class="flex flex-row justify-center gap-16 px-20 py-5 mb-6">
+        <div class="flex flex-row justify-center gap-16 px-20 py-5 mb-6 overflow-x-auto">
             <img src="{{ asset('img/logo/Ndoroarum.png') }}" class="max-h-8" alt="">
             <img src="{{ asset('img/logo/lch.png') }}" class="max-h-8" alt="">
             <img src="{{ asset('img/logo/lgh.png') }}" class="max-h-8" alt="">
@@ -364,13 +363,13 @@
     </section>
 
     <section id="" class="bg-[#10405A] mb-5 ">
-        <div class="container flex flex-row gap-24 py-16 px-36 justify-items-center">
+        <div class="container flex flex-row gap-24 px-8 py-16 md:px-36 justify-items-center">
             <div class="w-full ">
-                <h3 class="mb-1 text-5xl font-semibold text-white whitespace-normal">Konsultasikan
+                <h3 class="mb-1 text-3xl font-semibold text-white whitespace-normal md:text-5xl">Konsultasikan
                     kebutuhan website
                     UMKM dan Instansi Anda
                 </h3>
-                <hr class="w-64 h-1 mb-7 bg-yellow-500 border-0 rounded dark:bg-gray-700">
+                <hr class="w-64 h-1 bg-yellow-500 border-0 rounded mb-7 dark:bg-gray-700">
                 <p class="mb-6 text-base text-white">Lets embody your beautiful ideas together, simplify the way you
                     visualize
                     your
@@ -390,13 +389,13 @@
         </div>
     </section>
 
-    <section id="blog">
+    <section id="blog" class="container">
         <div class="flex justify-center px-20 py-12 mt-14">
-            <div class="text-4xl font-bold">Deftzone <span class="text-blue-400">blog</span></div>
+            <div class="text-4xl font-bold text-center">Deftzone <span class="text-blue-400">Blog</span></div>
         </div>
 
-        <div class="flex flex-wrap items-center justify-center gap-10 mb-5">
-            <div class="blog">
+        <div class="grid items-center justify-center grid-cols-1 gap-10 px-10 mb-5 md:grid-cols-3">
+            <div class="w-full overflow-hidden rounded-md shadow-lg">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -421,7 +420,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog">
+            <div class="w-full overflow-hidden rounded-md shadow-lg">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -446,7 +445,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog">
+            <div class="w-full overflow-hidden rounded-md shadow-lg">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -471,7 +470,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog">
+            <div class="w-full overflow-hidden rounded-md shadow-lg">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -496,7 +495,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog">
+            <div class="w-full overflow-hidden rounded-md shadow-lg">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -521,7 +520,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog">
+            <div class="w-full overflow-hidden rounded-md shadow-lg">
                 <img class="object-cover w-full h-full" src="{{ asset('img/illustration/Rectangle 38.png') }}"
                     alt="">
 
@@ -580,12 +579,12 @@
     </div>
 
     <!-- Footer container -->
-    <footer class="bg-[#023A51] text-center  text-white">
+    <footer class="bg-[#023A51] text-center text-white">
         <div class="container flex flex-col justify-end py-10 text-left">
-            <div class="grid grid-cols-3 gap-8 mt-96">
+            <div class="grid grid-cols-1 gap-8 px-10 md:grid-cols-3 mt-96">
                 <!-- TW elements section -->
                 <div class="">
-                    <hr class="w-64 h-1 mb-7 bg-yellow-500 border-0 rounded dark:bg-gray-700">
+                    <hr class="w-64 h-1 bg-yellow-500 border-0 rounded mb-7 dark:bg-gray-700">
                     <h6 class="flex justify-start mb-4 font-semibold uppercase">
                         About
                     </h6>
@@ -642,7 +641,6 @@
                         <a href="#!" class="text-neutral-200">Laravel</a>
                     </p>
                 </div>
-
             </div>
         </div>
 
@@ -654,7 +652,15 @@
     </footer>
 
 
+<script>
+    const mobileMenu = document.getElementById('mobile-menu-button');
+    const navMenu = document.getElementById('nav-menu');
 
+    mobileMenu.addEventListener('click', function() {
+        mobileMenu.classList.toggle('mobile-menu-active');
+        navMenu.classList.toggle('hidden');
+    });
+</script>
 </body>
 
 </html>

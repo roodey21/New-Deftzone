@@ -7,8 +7,20 @@
 
 @layer components {
     .blog {
-        @apply text-gray-700 w-1/4  shadow-lg
-        rounded-md overflow-hidden;
+        @apply w-1/4 overflow-hidden text-gray-700 rounded-md shadow-lg;
     }
-    
+
+    .hamburger-line {
+        @apply w-[30px] h-[2px] my-2 block bg-black;
+    }
+    .mobile-menu-active .hamburger-line:nth-child(1) {
+        @apply  rotate-45;
+    }
+    .mobile-menu-active .hamburger-line:nth-child(2) {
+        @apply scale-0;
+    }
+    .mobile-menu-active .hamburger-line:nth-child(3) {
+        @apply  -rotate-45;
+    }
+
 }
