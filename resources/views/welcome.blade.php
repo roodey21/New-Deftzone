@@ -21,27 +21,36 @@
                     <span class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
                 </button>
             </div>
-
-            <ul id="nav-menu" class="absolute right-0 flex-row hidden gap-5 bg-white top-10 md:top-0 md:relative md:items-center md:flex">
-                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">HOME</a></li>
-                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">PRICING</a></li>
-                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">PORTFOLIO</a></li>
-                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">BLOG</a></li>
-                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0" href="">CONTACT</a></li>
-                <button class="px-4 py-3 text-white rounded bg-blue-950">HIRE US</button>
+            <ul id="nav-menu"
+                class="absolute flex-row  w-screen h-screen lg:w-auto lg:h-auto hidden bg-white/95 top-[70px]  md:top-0 md:relative md:items-center md:flex">
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0"
+                        href="">HOME</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0"
+                        href="">PRICING</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0"
+                        href="">PORTFOLIO</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0"
+                        href="">BLOG</a></li>
+                <li class="mr-5 text-base font-semibold group"><a class="flex py-2 mx-8 md:mx-0 md:py-0"
+                        href="">CONTACT</a></li>
+                <div class="flex">
+                    <button class="flex px-4 py-3 mx-8 md:mx-0 text-white rounded bg-blue-950">HIRE US</button>
+                </div>
             </ul>
         </div>
     </nav>
 
 
     {{-- Hero section --}}
-    <div class="min-h-screen bg-no-repeat bg-cover bg-header">
+    <div class="min-h-screen bg-no-repeat bg-cover bg-mobile-header md:bg-header">
         <div class="container flex flex-row items-center justify-center px-20 py-32 md:justify-end">
             <div class="flex flex-col items-start gap-5">
-                <div class="text-3xl font-bold text-left text-white md:text-6xl md:whitespace-normal md:text-blue-950">Buat Website <br> Sesuai Kebutuhan <br> Bisnis
+                <div class="text-3xl font-bold text-left text-white md:text-6xl md:whitespace-normal md:text-blue-950">
+                    Buat Website <br> Sesuai Kebutuhan <br> Bisnis
                     Anda
                 </div>
-                <div class="text-base font-medium text-left text-white align-text-bottom md:text-lg md:text-blue-950">Team Deftzone siap membantu
+                <div class="text-base font-medium text-left text-white align-text-bottom md:text-lg md:text-blue-950">
+                    Team Deftzone siap membantu
                     mengembangkan
                     Platform Digital
                     <br>
@@ -49,7 +58,8 @@
                 </div>
                 <div class="flex flex-row gap-5">
                     <div>
-                        <button class="py-4 text-lg font-medium text-white bg-blue-300 rounded md:bg-white px-7 md:text-blue-950">GET
+                        <button
+                            class="py-4 text-lg font-medium text-white bg-blue-300 rounded md:bg-white px-7 md:text-blue-950">GET
                             STARTED</button>
                     </div>
                 </div>
@@ -59,7 +69,8 @@
 
     <div class="flex flex-col gap-2.5 px-6 py-10 mt-5 items-center">
         <div class="text-4xl font-bold text-center md:text-left text-blue-950">Why Choose Us ?</div>
-        <div class="text-base font-normal text-center md:text-lg md:font-medium text-blue-950">Deftzone adalah mitra terpercaya bagi
+        <div class="text-base font-normal text-center md:text-lg md:font-medium text-blue-950">Deftzone adalah mitra
+            terpercaya bagi
             banyak perusahaan dalam mengembangkan solusi <br> web yang inovatif dan sesuai dengan kebutuhan unik klien.
         </div>
     </div>
@@ -74,7 +85,8 @@
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Team Berpengalaman</div>
-                <div class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Deftzone adalah mitra terpercaya
+                <div class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Deftzone adalah mitra
+                    terpercaya
                     bagi
                     banyak perusahaan dalam mengembangkan solusi web yang inovatif dan sesuai dengan kebutuhan unik
                     klien.
@@ -88,7 +100,8 @@
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Desain Menarik </div>
-                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Desain menarik dan responsif untuk
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Desain menarik dan
+                    responsif untuk
                     pengalaman optimal.
                 </p>
             </div>
@@ -100,7 +113,8 @@
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Pendekatan Berbasis Klien</div>
-                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Kami meyakini bahwa setiap klien
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Kami meyakini bahwa setiap
+                    klien
                     adalah unik, maka kami mengadopsi pendekatan berbasis klien. Dengan mendengarkan kebutuhan Anda,
                     kami ciptakan solusi sesuai tujuan dan anggaran Anda.
                 </p>
@@ -115,7 +129,8 @@
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Responsif & Mobile-Friendly</div>
-                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Semakin banyak akses internet
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Semakin banyak akses
+                    internet
                     melalui perangkat mobile. Kami prioritaskan responsif dan mobile-friendly dalam setiap proyek untuk
                     pengalaman pengguna optimal.
                 </p>
@@ -128,7 +143,8 @@
                     </div>
                 </div>
                 <div class="mb-5 text-xl font-semibold text-blue-950">Custom</div>
-                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Meskipun kami memanfaatkan framework
+                <p class="mx-auto text-sm font-normal text-center md:text-base text-blue-950">Meskipun kami memanfaatkan
+                    framework
                     dan teknologi canggih, kami juga terampil dalam mengembangkan solusi kustom yang sesuai dengan
                     kebutuhan spesifik Anda.
                 </p>
@@ -138,8 +154,8 @@
 
 
     <section id="pricing" class="container">
-        <div class="flex px-20 py-12 mt-14 ">
-            <div class="text-4xl font-bold text-center text-blue-950">PRICING</div>
+        <div class="flex px-20 py-12 md:mt-14 ">
+            <div class="text-4xl font-bold text-center text-blue-950 ">PRICING</div>
         </div>
 
         <div class="flex flex-wrap justify-center gap-10 px-10 py-6 md:px-20">
@@ -652,15 +668,15 @@
     </footer>
 
 
-<script>
-    const mobileMenu = document.getElementById('mobile-menu-button');
-    const navMenu = document.getElementById('nav-menu');
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu-button');
+        const navMenu = document.getElementById('nav-menu');
 
-    mobileMenu.addEventListener('click', function() {
-        mobileMenu.classList.toggle('mobile-menu-active');
-        navMenu.classList.toggle('hidden');
-    });
-</script>
+        mobileMenu.addEventListener('click', function() {
+            mobileMenu.classList.toggle('mobile-menu-active');
+            navMenu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@ export default {
       extend: {
         backgroundImage: {
           'header': 'url("/public/img/illustration/header.png")',
+          'mobile-header': 'url("/public/img/illustration/mobile.png")',
         },
         fontFamily: {
           'body': ['Inter', 'sans-serif'],
